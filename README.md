@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasina Diagnostic Centre | Specialist Doctors Consultation</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        hdcBlue: '#0056B3',
+                        hdcLightBlue: '#E6F0FA',
+                        hdcRed: '#FF3B30',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Top Info Bar -->
+    <div class="bg-hdcBlue text-white text-xs sm:text-sm py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center space-x-4">
+                <span><i class="fa-solid fa-phone mr-1"></i> +880 1731 529837</span>
+                <span><i class="fa-solid fa-phone mr-1"></i> +880 1940 642726</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <span><i class="fa-solid fa-envelope mr-1"></i> hasinadiagnosticcenter.official@gmail.com</span>
+                <span><i class="fa-solid fa-location-dot mr-1"></i> Natun Hospital Road, Amtali, Barguna</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo Section -->
+            <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 rounded-full border-2 border-hdcBlue flex items-center justify-center font-bold text-hdcBlue text-xl bg-white relative">
+                    HDC<span class="text-hdcRed absolute bottom-3 text-xs">♥</span>
+                </div>
+                <div>
+                    <h1 class="text-xl sm:text-2xl font-bold text-hdcBlue tracking-wide uppercase">Hasina Diagnostic Centre</h1>
+                    <p class="text-xs text-hdcRed font-medium tracking-tight">Specialist Doctors Consultation Centre</p>
+                </div>
+            </div>
+            <!-- Nav Links -->
+            <nav class="hidden md:flex space-x-8 font-medium text-gray-600">
+                <a href="#home" class="hover:text-hdcBlue transition">Home</a>
+                <a href="#services" class="hover:text-hdcBlue transition">Our Services</a>
+                <a href="#about" class="hover:text-hdcBlue transition">About Us</a>
+                <a href="#contact" class="bg-hdcBlue text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gradient-to-br from-hdcLightBlue to-white py-20 px-4 overflow-hidden">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="bg-blue-100 text-hdcBlue px-3 py-1 rounded-full text-sm font-semibold tracking-wide">Welcome to HDC</span>
+                <h2 class="text-4xl sm:text-5xl font-black text-gray-900 leading-tight">
+                    Accurate Diagnosis, <br><span class="text-hdcBlue">Better Care, Brighter Tomorrow</span>
+                </h2>
+                <p class="text-gray-600 text-lg">
+                    Providing top-tier, trusted medical diagnostic and consultation services right in the heart of Amtali, Barguna.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="bg-hdcBlue text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 shadow-md transition">Book an Appointment</a>
+                    <a href="#services" class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition">View Test Services</a>
+                </div>
+            </div>
+            <div class="relative flex justify-center">
+                <div class="w-72 h-72 sm:w-96 sm:h-96 rounded-full bg-hdcBlue/10 absolute -z-10 animate-pulse"></div>
+                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 max-w-sm w-full space-y-4">
+                    <div class="flex items-center space-x-3 border-b pb-3">
+                        <i class="fa-solid fa-clock text-hdcRed text-xl"></i>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Chamber Hours</h4>
+                            <p class="text-xs text-gray-500">Open 7 days a week</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-600 flex justify-between"><span>Saturday - Thursday:</span> <strong>7:00 AM - 10:00 PM</strong></p>
+                    <p class="text-sm text-gray-600 flex justify-between"><span>Friday:</span> <strong>8:00 AM - 8:00 PM</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="text-center max-w-xl mx-auto mb-16">
+            <h3 class="text-3xl font-bold text-hdcBlue">Our Diagnostic Services</h3>
+            <div class="w-16 h-1 bg-hdcRed mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-lg bg-hdcLightBlue flex items-center justify-center text-hdcBlue text-2xl mb-4"><i class="fa-solid fa-x-ray"></i></div>
+                <h4 class="text-xl font-bold mb-2">Digital X-Ray</h4>
+                <p class="text-gray-600 text-sm">High-resolution digital imaging providing rapid accuracy with minimal exposure risks.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-lg bg-hdcLightBlue flex items-center justify-center text-hdcBlue text-2xl mb-4"><i class="fa-solid fa-baby"></i></div>
+                <h4 class="text-xl font-bold mb-2">Ultrasound (USG)</h4>
+                <p class="text-gray-600 text-sm">Advanced 3D/4D pregnancy imaging and general abdominal sonography services.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-lg bg-hdcLightBlue flex items-center justify-center text-hdcBlue text-2xl mb-4"><i class="fa-solid fa-heart-pulse"></i></div>
+                <h4 class="text-xl font-bold mb-2">ECG</h4>
+                <p class="text-gray-600 text-sm">Instant digital cardiac tracking and electrocardiograms for reliable heart health insights.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-lg bg-hdcLightBlue flex items-center justify-center text-hdcBlue text-2xl mb-4"><i class="fa-solid fa-microscope"></i></div>
+                <h4 class="text-xl font-bold mb-2">Pathology</h4>
+                <p class="text-gray-600 text-sm">Comprehensive clinical pathology testing managed by certified lab specialists.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-lg bg-hdcLightBlue flex items-center justify-center text-hdcBlue text-2xl mb-4"><i class="fa-solid fa-vial"></i></div>
+                <h4 class="text-xl font-bold mb-2">Hematology</h4>
+                <p class="text-gray-600 text-sm">Complete blood profiling, cell counts, and specialized diagnostic evaluations.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-lg bg-hdcLightBlue flex items-center justify-center text-hdcBlue text-2xl mb-4"><i class="fa-solid fa-user-doctor"></i></div>
+                <h4 class="text-xl font-bold mb-2">Doctor Consultations</h4>
+                <p class="text-gray-600 text-sm">Regularly hosting seasoned visiting specialists from across the region.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-hdcLightBlue/60 py-16 px-4">
+        <div class="max-w-4xl mx-auto text-center space-y-4">
+            <h3 class="text-2xl font-bold text-gray-900">Dedicated to the Community of Barguna</h3>
+            <p class="text-gray-600 leading-relaxed">
+                Located conveniently at Natun Hospital Road, Hasina Diagnostic Centre is committed to bringing institutional-grade diagnostic reporting closer to the local community, eliminating the need for exhausting long-distance travel for critical medical assessments.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-5 gap-12 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
+            
+            <div class="lg:col-span-2 bg-hdcBlue p-8 sm:p-12 text-white flex flex-col justify-between">
+                <div class="space-y-6">
+                    <h3 class="text-3xl font-black tracking-tight">Get In Touch</h3>
+                    <p class="text-blue-100 text-sm">Have any inquiries about test availability, reporting timelines, or visiting specialist schedules? Contact us directly.</p>
+                    
+                    <div class="space-y-4 pt-6">
+                        <div class="flex items-start space-x-4">
+                            <i class="fa-solid fa-location-dot mt-1 text-hdcRed"></i>
+                            <div>
+                                <h5 class="font-bold">Our Location</h5>
+                                <p class="text-sm text-blue-100">Natun Hospital Road, Amtali,<br>Barguna - 8710, Bangladesh</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fa-solid fa-phone mt-1 text-white"></i>
+                            <div>
+                                <h5 class="font-bold">Phone Numbers</h5>
+                                <p class="text-sm text-blue-100">+880 1731 529837</p>
+                                <p class="text-sm text-blue-100">+880 1940 642726</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fa-solid fa-envelope mt-1 text-white"></i>
+                            <div>
+                                <h5 class="font-bold">Email Address</h5>
+                                <p class="text-sm text-blue-100">hasinadiagnosticcenter.official@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AJAX Messaging Module -->
+            <div class="lg:col-span-3 p-8 sm:p-12">
+                <h4 class="text-2xl font-bold text-gray-900 mb-2">Send Us a Message</h4>
+                <p class="text-gray-500 text-sm mb-8">Fill out the panel below to send an email message directly to our official reception desk.</p>
+
+                <!-- Status Indicators for Formspree SDK -->
+                <div data-fs-success class="hidden p-4 mb-6 bg-green-50 text-green-700 rounded-lg border border-green-200 font-medium">
+                    <i class="fa-solid fa-circle-check mr-2"></i> Thank you! Your message has been sent successfully. We will get back to you soon.
+                </div>
+                <div data-fs-error class="hidden p-4 mb-6 bg-red-50 text-red-700 rounded-lg border border-red-200 font-medium">
+                    <i class="fa-solid fa-circle-exclamation mr-2"></i> Oops! There was a problem submitting your form. Please check the fields below.
+                </div>
+
+                <form id="hdc-contact-form" class="space-y-6">
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Full Name</label>
+                            <input type="text" id="name" name="name" required data-fs-field class="w-full border-b border-gray-300 py-2 focus:border-hdcBlue focus:outline-none transition bg-transparent">
+                            <span data-fs-error="name" class="text-xs text-red-500 mt-1 block"></span>
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required data-fs-field class="w-full border-b border-gray-300 py-2 focus:border-hdcBlue focus:outline-none transition bg-transparent">
+                            <span data-fs-error="phone" class="text-xs text-red-500 mt-1 block"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Your Email Address</label>
+                        <input type="email" id="email" name="email" required data-fs-field class="w-full border-b border-gray-300 py-2 focus:border-hdcBlue focus:outline-none transition bg-transparent">
+                        <span data-fs-error="email" class="text-xs text-red-500 mt-1 block"></span>
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Subject / Required Test Info</label>
+                        <select id="subject" name="subject" data-fs-field class="w-full border-b border-gray-300 py-2 focus:border-hdcBlue focus:outline-none transition bg-transparent text-gray-600">
+                            <option value="General Query">General Inquiry</option>
+                            <option value="Report Inquiry">Test Report Status</option>
+                            <option value="Appointment Booking">Doctor Appointment</option>
+                        </select>
+                        <span data-fs-error="subject" class="text-xs text-red-500 mt-1 block"></span>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Your Message</label>
+                        <textarea id="message" rows="4" name="message" required data-fs-field class="w-full border border-gray-200 rounded-lg p-3 focus:border-hdcBlue focus:outline-none transition bg-transparent text-sm" placeholder="Write your requirements here..."></textarea>
+                        <span data-fs-error="message" class="text-xs text-red-500 mt-1 block"></span>
+                    </div>
+
+                    <button type="submit" data-fs-submit-btn class="w-full bg-hdcBlue text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition shadow-md flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed">
+                        <span>Submit Secure Message</span>
+                        <i class="fa-solid fa-paper-plane text-sm"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Area -->
+    <footer class="bg-gray-900 text-gray-400 py-12 px-4 border-t-4 border-hdcBlue">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left">
+                <p class="text-white font-bold text-lg">Hasina Diagnostic Centre</p>
+                <p class="text-xs text-gray-500 mt-1">“Accurate Diagnosis, Better Care, Brighter Tomorrow”</p>
+            </div>
+            <div class="text-center md:text-right text-xs space-y-1">
+                <p>&copy; 2026 Hasina Diagnostic Centre. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Formspree AJAX SDK Loader Scripts -->
+    <script>
+        window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+        formspree('initForm', { formElement: '#hdc-contact-form', formId: 'mpqggwrd' });
+    </script>
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+
+</body>
+</html>
